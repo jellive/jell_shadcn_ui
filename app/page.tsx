@@ -2,7 +2,6 @@ import Image from "next/image";
 import config from 'next/config'
 
 const {basePath}: {basePath: string} = config().publicRuntimeConfig
-console.log('basePath', basePath)
 
 export default function Home() {
   return (
